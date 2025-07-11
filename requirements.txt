@@ -1,0 +1,8 @@
+streamlit
+cohere
+pandas
+matplotlib
+numpy
+requests
+python-dotenv
+Pillow
