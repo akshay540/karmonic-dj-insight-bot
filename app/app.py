@@ -221,8 +221,8 @@ if uploaded_file is not None:
             plt.tight_layout()
             st.pyplot(fig_eq)
 
-            # --- 🕸️ Side-by-Side Radar Chart ---
-            st.markdown("### 🕸️ Audio Profile Radar (Side-by-Side)")
+            # --- 🕸️ Radar Chart ---
+            st.markdown("### 🕸️ Audio Profile Radar ")
 
             rms = np.mean(librosa.feature.rms(y=y))
             tempo = librosa.beat.tempo(y=y, sr=sr)[0]
