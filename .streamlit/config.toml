@@ -5,3 +5,11 @@ port = 8501
 
 [general]
 pythonVersion = "3.10"
+
+[theme]
+base = "dark"
+primaryColor = "#ff00ff"
+backgroundColor = "#0d0d0d"
+secondaryBackgroundColor = "#1a1a1a"
+textColor = "#ffffff"
+font = "sans serif"
