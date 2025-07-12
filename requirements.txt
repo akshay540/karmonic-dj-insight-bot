@@ -1,8 +1,11 @@
 streamlit
 cohere
 pandas
-matplotlib
 numpy
+matplotlib
 requests
 python-dotenv
 Pillow
+scikit-learn
+librosa
+openai-whisper
