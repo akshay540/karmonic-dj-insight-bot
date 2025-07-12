@@ -2,5 +2,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+# Ignore all TOML files except Streamlit config
 *.toml
+!.streamlit/config.toml
+
 env
